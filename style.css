@@ -1,0 +1,376 @@
+body{
+    background: linear-gradient(to bottom right, #f0f0f0, #d0d0d0);
+}
+.body
+{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+.content
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+    height: fit-content;
+    margin: 0 25% 0 25%;
+}
+.row, .row-stat
+{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;    
+}
+
+.top-row
+{
+    width: 100%;
+    height: fit-content;    
+    margin-bottom: 10px;
+    grid-gap: 0px;
+	display:grid;
+    text-align: center;
+	grid-template-columns: repeat(7,1fr);
+       
+}
+.logo
+{
+    width: 230px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;   
+    
+
+}
+.address
+{
+    display: flex;
+    justify-content:start;
+    align-items: flex-start;
+    flex-direction: row;
+    height: 50px;
+}
+.box 
+{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    height: 50px;
+    
+}
+.box-adress
+{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    height: 50px;
+    
+}
+.pin
+{
+    margin-top: 6px;
+    width:30px;
+    height: 19px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+.Button
+{
+    background-color: black;
+    border-radius: 5px;
+    height: 40px;
+    width: 115px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    border-color: black;
+    border-style: solid;
+}
+.Button-w
+{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    margin: 20px 0 20px 0;
+}
+.line-ver{
+    width: 1px;
+    height: 20px;
+    text-align: center;
+    background-color: #747474;
+    justify-self: center;
+    align-self: center;
+}
+.line-hor
+{
+    width: 30%;
+    height: 1px;
+    text-align: center;
+    background-color: #747474;
+    margin: 25px 0 10px 0 ;
+}
+.description
+{
+    font-size: 10px;
+    font-weight: lighter;
+}
+.phone
+{
+    font-size: 15px;
+    font-weight: 620;
+}
+
+.text-link{
+  text-decoration: underline; 
+  align-self:center; 
+  justify-self: center;
+  width: 100%;
+  height: 100%;
+}
+
+.text
+{
+    font-size: 16px;
+    font-weight: lighter;
+    width: 100%;
+    text-align: center;
+}.text2
+{
+    font-size: 16px;
+    font-weight: lighter;
+    width: 100%;
+    text-align: center;
+}
+.Header-text
+{
+    width: 400px;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 25px 0 10px 0 ;
+}
+
+.Grid
+{
+    text-align:center;
+	margin:auto;
+	width:100%;
+    margin-top: 20px;
+    
+}
+
+.content_grid_body img{
+	
+    object-fit:cover;
+}
+.content_grid_body{
+	display:grid;
+	grid-template-columns:repeat(4,1fr);
+	grid-template-rows:repeat(3,1fr);
+   
+}
+.content_grid_item{
+	margin:2.5px;
+	
+}
+.content_grid_item_1{
+	grid-column: span 1;
+}
+.content_grid_item_2{
+	grid-column: span 2;
+	grid-row: span 2;
+}
+
+.content_grid_item_4{
+	grid-row: span 2;
+}
+
+.content_grid_item_7{
+		grid-column: span 2;
+}
+.img_content{
+	width:100%;
+	height:100%;
+}
+
+.text-link:hover{
+color: red;
+cursor: pointer;
+}
+
+.Button:hover{
+    background-color: rgb(232, 232, 232);
+    color: black;
+    border-color: black;
+    border-style: solid;
+    transition: 70ms;
+}
+
+.Button-w:hover{
+    color: red;
+    scale: 1.05;
+    transition: 70ms;
+}
+
+.stat-box{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.line-ver-long{
+    width: 1px;
+    height: 60px;
+    text-align: center;
+    background-color: #747474;
+}
+.bottom{
+    
+    height: fit-content;
+    width: 100%;      
+    position: absolute;
+    bottom:auto;   
+    background-color: #000000;
+    color: white;
+    margin: 0 0 0 0 ;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    
+}
+.support
+{
+    border-radius: 20px;
+    width:300px;
+    height:200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 15px;
+}
+.text1{
+    width: 400px;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+    text-align: start;
+    margin-bottom: -15px;
+}
+.ss{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 50%;
+    height: fit-content;
+    margin: 0 25% 0 25%;
+    justify-content: start;
+}
+
+@media screen and (max-width: 1350px)
+{
+.box{display: none;}
+
+
+}
+@media screen and (max-width: 990px)
+{
+    
+.top-row{grid-template-columns: repeat(2,50%);grid-template-rows:repeat(2,30px);}
+.line-ver{display: none;}
+.support{display: none;}
+.text-link{border: 1px solid; text-decoration: none;}
+    .content
+    { 
+        width: 80%;
+        margin: 0 10% 0 10%;
+    }
+    .ss{
+        width: 80%;
+        margin: 0 10% 0 10%;
+    }
+}
+@media screen and (max-width: 640px)
+{
+    .content
+    { 
+        width: 100%;
+        margin: 0;
+    }
+    .ss
+    {
+        width: 100%;
+        margin: 0;
+        padding: 8px;
+
+    }
+.line-hor{display: none;}
+.line-ver-long{display: none;}
+.Button{display: none;}
+.content_grid_body{
+	grid-template-rows:repeat(5,1fr);
+	grid-template-columns: repeat(2,1fr);
+	}
+	.logo{width: 180px;}
+    .Header-text{font-size: 21px;}
+    .text{font-size: 14px;}
+	.content_grid_item_1{
+	grid-row: span 2;
+	grid-column: span 2;
+	}
+	.content_grid_item_3{
+        grid-row: span 1;
+        grid-column: span 1;
+        }
+	.content_grid_item_2{
+	grid-row: span 1;
+	grid-column: span 1;
+	}
+    .content_grid_item_4{
+        grid-row: span 2;
+        grid-column: span 1;
+        }
+    .content_grid_item_6{
+        grid-row: span 1;
+        grid-column: span 1;
+        }
+		
+	.content_grid_item_5{
+	grid-row: span 1;
+	grid-column: span 1;
+	}
+		
+    .content_grid_item_7{
+        grid-row: span 1;
+        grid-column: span 2;
+    }
+    .row-stat{
+        flex-direction: column;
+        justify-content: start;
+        text-align: left;
+    }
+    .stat-box{
+        flex-direction: row;
+        justify-content: start;
+        text-align: left;
+        width: 100%;
+    }
+    .text2{
+        text-align: left;
+    }
+}
